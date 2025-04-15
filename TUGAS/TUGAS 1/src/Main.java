@@ -37,7 +37,7 @@ public class Main {
             String nim = scanner.nextLine();
 
 
-            String validNama = "HAIDAR HANIF WAHYUDI"; //data login
+            String validNama = "Haidar Hanif Wahyudi"; //data login
             String validNim = "202410370110100";
 
             if (nama.equals(validNama) && nim.equals(validNim)) {  // verifikasi login mahasiswa
