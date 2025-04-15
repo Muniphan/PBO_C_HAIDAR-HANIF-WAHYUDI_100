@@ -1,6 +1,6 @@
 class User {
-    private String nama = "Revansa Adha Dwi Yuliarto" + "revansa adha dwi yuliarto";
-    private String nim = "202410370110218";
+    private String nama = "HAIDAR HANIF WAHYUDI" + "HAIDAR HANIF WAHYUDI";
+    private String nim = "202410370110100";
 
     // Constructor untuk inisialisasi nama dan nim
     public User(String nama, String nim) {

@@ -16,7 +16,7 @@ class LoginSystem {
             String password = scanner.nextLine();
 
             // Membuat objek Admin dan melakukan login
-            Admin admin = new Admin("Revansa Adha Dwi Yuliarto", "202410370110218", "admin218", "password218");
+            Admin admin = new Admin("HAIDAR HANIF WAHYUDI", "202410370110100", "admin", "password");
             if (admin.login(username, password)) {
                 admin.displayInfo();
             } else {
@@ -30,7 +30,7 @@ class LoginSystem {
             String nim = scanner.nextLine();
 
             // Membuat objek Mahasiswa dan melakukan login
-            Mahasiswa mahasiswa = new Mahasiswa("Revansa Adha Dwi Yuliarto", "202410370110218");
+            Mahasiswa mahasiswa = new Mahasiswa("HAIDAR HANIF WAHYUDI", "202410370110100");
             if (mahasiswa.login(nama, nim)) {
                 mahasiswa.displayInfo();
             } else {

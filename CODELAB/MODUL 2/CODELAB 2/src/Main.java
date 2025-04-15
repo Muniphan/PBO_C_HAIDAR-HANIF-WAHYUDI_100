@@ -7,8 +7,8 @@ public class Main {
         RekeningBank rekening2 = new RekeningBank();
 
         //mengatur nomor rekening untuk rekening1 dan rekening2
-        rekening1.nomorRekening = "202410370110218";
-        rekening2.nomorRekening = "202410370110216";
+        rekening1.nomorRekening = "202410370110100";
+        rekening2.nomorRekening = "202410370110100";
 
         //Mengatur nama pemilik rekening
         rekening1.namaPemilik = "Revan";
@@ -25,13 +25,13 @@ public class Main {
 
         //Melakukan transaksi setor uang
         System.out.println("\n=== Transaksi Setor Uang ===");
-        rekening1.setorUang(200000); // Revan menyetor uang
-        rekening2.setorUang(300000); // Aulia menyetor uang
+        rekening1.setorUang(200000);
+        rekening2.setorUang(300000);
 
         //Melakukan transaksi tarik uang
         System.out.println("\n=== Transaksi Tarik Uang ===");
-        rekening1.tarikUang(10000); // Revan menarik uang
-        rekening2.tarikUang(20000); // Aulia menarik uang
+        rekening1.tarikUang(10000);
+        rekening2.tarikUang(20000);
 
         //Menampilkan informasi rekening setelah transaksi
         System.out.println("\n=== Informasi Rekening Setelah Transaksi ===");
