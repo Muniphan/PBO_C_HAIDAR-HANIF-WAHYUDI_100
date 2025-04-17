@@ -1,6 +1,6 @@
-class Mahasiswa {
-    String nama = "Haidar Hanif Wahyudi";
-    String nim = "202410370110100";
+public class Mahasiswa {
+    private String nama = "Haidar Hanif Wahyudi";
+    private String nim = "202410370110100";
 
     public boolean login(String inputNama, String inputNim) {
         return inputNama.trim().equalsIgnoreCase(nama.trim()) && inputNim.trim().equals(nim.trim());
