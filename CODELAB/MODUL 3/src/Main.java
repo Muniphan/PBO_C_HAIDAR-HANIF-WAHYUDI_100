@@ -41,7 +41,9 @@ class Pahlawan extends KarakterGame {
     }
 }
 
-class Musuh extends KarakterGame {
+class
+
+Musuh extends KarakterGame {
     public Musuh(String nama, int kesehatan) {
         super(nama, kesehatan);
     }
